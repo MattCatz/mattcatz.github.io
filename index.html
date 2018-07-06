@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+   <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Matthew Cather</title>
+  <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.">
+
+  <link rel="stylesheet" type="text/css" href="/css/main.css"/>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link rel="canonical" href="beeblebrox.io/"/>
+  <link rel="alternate" type="application/rss+xml" title="Matthew Cather" href="beeblebrox.io/feed.xml" />
+  
+  <link rel="icon" href="/favicon.png"/>
+  <script async src="https://use.fontawesome.com/1599c00178.js"></script>
+  <script async src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.1.0/particles.min.js"></script>
+  </head>
+
+   <body>
+      <div class="about-content">
+   <div class="profile-info">
+      <img src="/assets/img/sm/portrait.jpg"
+         sizes="9em"
+         srcset="/assets/img/sm/portrait.jpg 140w,
+                 /assets/img/md/portrait.jpg 240w,
+                 /assets/img/lg/portrait.jpg 480w,
+                 /assets/img/xl/portrait.jpg 960w"
+      >
+      <h1>Matthew Cather</h1>
+      <hr>
+      <h3>Auburn Computer Engineering</h3>
+   </div>
+   <div class="profile-list">
+      <ul class="social-links">
+         <li>
+            <a href="http://git.beeblebrox.io" target="_blank" title="Git">
+               <i class="fa fa-git fa-lg"></i>
+            </a>
+         </li>
+         <li>
+            <a href="https://github.com/MattCatz" target="_blank" title="GitHub">
+               <i class="fa fa-github fa-lg"></i>
+            </a>
+         </li>
+         <li>
+            <a href="https://www.linkedin.com/in/mattcather/" target="_blank" title="LinkedIn">
+               <i class="fa fa-linkedin fa-lg"></i>
+            </a>
+         </li>
+      </ul>
+      <a href="/assets/pdf/Matthews_Resume.pdf" download>
+         <button><h4>Download Resume</h4>
+      </a>
+   </div>
+</div>
+<canvas class="background"></canvas>
+<script>
+   window.onload = function() {
+      Particles.init({
+         selector: '.background',
+         maxParticles: 150,
+         connectParticles: true,
+         color: '#FFFFFF',
+         sizeVariations: 5,
+
+         responsive: [
+            {
+               breakpoint: 1024,
+               options: {
+                  maxParticles: 90,
+               }
+            }, {
+               breakpoint: 768,
+               options: {
+                  maxParticles: 60,
+               }
+            }, {
+               breakpoint: 375,
+               options: {
+                  maxParticles: 40,
+               }
+            }
+         ]
+      });
+   };
+   </script>
+
+
+   </body>
+</html>
